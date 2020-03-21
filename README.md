@@ -17,6 +17,8 @@ Data Processing
 
 EDA
 -
+- There was no extreme variation in transit mode between days of the week 
+< img src = "images/count_day_by_mode.png" > 
 
 Cluster
 -
