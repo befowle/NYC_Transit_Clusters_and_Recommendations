@@ -20,6 +20,9 @@ EDA
 - There was no extreme variation in transit mode between days of the week 
 <img src = "images/count_day_by_mode.png"> 
 
+- Breakdown of transportation mode frequency by borough
+<img src = "images/count_borough_by_mode.png"> 
+
 Cluster
 -
 
