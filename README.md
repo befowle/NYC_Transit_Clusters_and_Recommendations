@@ -17,17 +17,41 @@ Data Processing
 
 EDA
 -
+- Most trips were taken by walking or by car
+<img src = "images/count_by_mode.png"> 
+
+- The purpose of most trips is commuting, followed by social/recreation, then shopping
+<img src = "images/count_by_purpose.png"> 
+
 - There was no extreme variation in transit mode between days of the week 
 <img src = "images/count_day_by_mode.png"> 
 
 - Breakdown of transportation mode frequency by borough
 <img src = "images/count_borough_by_mode.png"> 
 
+
 Cluster
 -
+- Elbow Plot
+<img src = "images/elbow_plot.png"> 
+
+- PCA 4 components
+<img src = "images/pca_4.png">
+
+-PCA 42
+<img src = "images/pca_42.png">
+
+
+- Clusters with mode of transit identified
+<img src = "images/clusters_with_modes.png"> 
 
 Explore Cluster 1
 -
+- Precipitation in clusters
+<img src = "images/count_precipitation_by_cluster.png"> 
+
+- Cluster 1 mode breakdown
+<img src = "images/cluster1_count_precipitation_mode.png"> 
 
 Recommendation Engine
 -
