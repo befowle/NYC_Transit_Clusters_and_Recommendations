@@ -38,6 +38,7 @@ Cluster
 - Determined appropriate number of clusters using the Elbow Method
 
 Elbow Plot
+
 <img src = "images/elbow_plot.png"> 
 
 
