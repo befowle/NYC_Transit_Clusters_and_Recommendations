@@ -32,22 +32,38 @@ EDA
 
 Cluster
 -
-- Elbow Plot
+- Clustering was performed on the dataset with the mode of transit feature removed, so that the mode of transit was not a factor to create clusters
+
+- Determined appropriate number of clusters using the Elbow Method
+
+Elbow Plot
 <img src = "images/elbow_plot.png"> 
 
-- PCA 4 components
+- Performed Hierarchical Agglomerative Clustering using Ward linkages to maximize variance
+
+- Ultimately used K-Means Clustering for its interpretability (Silhouette Score: 0.31, Calinski-Harabasz Score: 1491.88)
+
+- Ran a Principle Component Analysis to determine how features affect variance (dataset contains 200+ features)
+
+- 53% of variance can be explained by 4 principal components
+
+Explained Variance (4 Components)
 <img src = "images/pca_4.png">
 
--PCA 42
+- 90% of variance can be explained by 42 principal components
+
+Explained Variance (42 Components)
 <img src = "images/pca_42.png">
 
-
-- Clusters with mode of transit identified
+- Visualize clusters with mode of transit identified
 <img src = "images/clusters_with_modes.png"> 
 
 Explore Cluster 1
 -
-- Precipitation in clusters
+
+- I explored clusters further, visualizing individual features to identify notable patterns and found that 85% of trips in Cluster 1 (the narrow cluster on the right of the scatter plot above) occurred on days with 2 inches of precipitation
+
+Precipitation in Clusters
 <img src = "images/count_precipitation_by_cluster.png"> 
 
 - Cluster 1 mode breakdown
