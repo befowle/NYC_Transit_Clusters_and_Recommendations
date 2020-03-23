@@ -71,10 +71,15 @@ Precipitation in Clusters
 
 - Below is Cluster 1 visualized to see which types of transit were used in this cluster. No single form of transit dominates, so many forms of alternative transportation can be recommended!
 
-- Cluster 1 mode breakdown
+- Cluster 1 frequency of transit modes by amount of precipitation
 <img src = "images/cluster1_count_precipitation_mode.png"> 
 
 Recommendation Engines
 -
 
-- 
+- A content-based recommendation engine using cosine similarity was built for each cluster
+- A unique trip ID is entered, producing a list of trip IDs from similar trip, and then a function returns the mode of transportation used in a simiar trip.
+
+Summary
+-
+- By clustering trips based on numerous characteristics then layering on the mode of transporation taken, an appropriate, non-fossil fuel-based form of transportation can be recommended
