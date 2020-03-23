@@ -78,8 +78,8 @@ Recommendation Engines
 -
 
 - A content-based recommendation engine using cosine similarity was built for each cluster
-- A unique trip ID is entered, producing a list of trip IDs from similar trip, and then a function returns the mode of transportation used in a simiar trip.
+- A unique trip ID is entered, producing a list of trip IDs from similar trip, and then a function returns the mode of transportation used in a similar trip.
 
 Summary
 -
-- By clustering trips based on numerous characteristics then layering on the mode of transporation taken, an appropriate, non-fossil fuel-based form of transportation can be recommended
+- By clustering trips based on numerous characteristics then layering on the mode of transportion taken, an appropriate, non-fossil fuel-based form of transportation can be recommended
