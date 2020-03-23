@@ -1,6 +1,6 @@
 NYC Transit Clustering plus Recommendation Engine
 -
-To view the code used for this project, please see [NYC_Mobility.py](../NYC_Mobility.py)
+To view the code used for this project, please see [NYC_Mobility.py](https://github.com/befowle/NYC_Transit_Clusters_and_Recommendations)
 
 - Data Source: 2018 Citywide Mobility Survey of New York City residents' travel choices and behaviors (NYC Open Data)
 
