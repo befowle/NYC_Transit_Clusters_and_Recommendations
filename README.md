@@ -37,8 +37,8 @@ Cluster
 
 - Determined appropriate number of clusters using the Elbow Method
 
-Elbow Plot
 <img src = "images/elbow_plot.png"> 
+Elbow Plot
 
 - Performed Hierarchical Agglomerative Clustering using Ward linkages to maximize variance
 
@@ -48,16 +48,16 @@ Elbow Plot
 
 - 53% of variance can be explained by 4 principal components
 
-Explained Variance (4 Components)
 <img src = "images/pca_4.png">
+Explained Variance (4 Components)
 
 - 90% of variance can be explained by 42 principal components
 
-Explained Variance (42 Components)
 <img src = "images/pca_42.png">
+Explained Variance (42 Components)
 
-- Visualize clusters with mode of transit identified
-<img src = "images/clusters_with_modes.png"> 
+<img src = "images/clusters_with_modes.png">
+- Visualize clusters with mode of transit identified 
 
 Explore Cluster 1
 -
@@ -66,13 +66,13 @@ Explore Cluster 1
 
     - Logically this makes sense: precipitation impacts your mobility, the mode of transit you choose, and how long trips take.
 
-Precipitation in Clusters
 <img src = "images/count_precipitation_by_cluster.png"> 
+Precipitation in Clusters
 
 - Below is Cluster 1 visualized to see which types of transit were used in this cluster. No single form of transit dominates, so many forms of alternative transportation can be recommended!
 
-- Cluster 1 frequency of transit modes by amount of precipitation
 <img src = "images/cluster1_count_precipitation_mode.png"> 
+- Cluster 1 frequency of transit modes by amount of precipitation
 
 Recommendation Engines
 -
