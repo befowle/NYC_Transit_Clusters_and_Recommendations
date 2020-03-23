@@ -61,13 +61,19 @@ Explained Variance (42 Components)
 Explore Cluster 1
 -
 
-- I explored clusters further, visualizing individual features to identify notable patterns and found that 85% of trips in Cluster 1 (the narrow cluster on the right of the scatter plot above) occurred on days with 2 inches of precipitation
+- I explored clusters further, visualizing individual features to identify notable patterns and found that 85% of trips in Cluster 1 (the narrow cluster on the right of the scatter plot above) occurred on days with 2 inches of precipitation.
+
+    - Logically this makes sense: precipitation impacts your mobility, the mode of transit you choose, and how long trips take.
 
 Precipitation in Clusters
 <img src = "images/count_precipitation_by_cluster.png"> 
 
+- Below is Cluster 1 visualized to see which types of transit were used in this cluster. No single form of transit dominates, so many forms of alternative transportation can be recommended!
+
 - Cluster 1 mode breakdown
 <img src = "images/cluster1_count_precipitation_mode.png"> 
 
-Recommendation Engine
+Recommendation Engines
 -
+
+- 
