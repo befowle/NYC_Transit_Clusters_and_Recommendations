@@ -22,19 +22,14 @@ EDA
 - Most trips were taken by walking or by car
 <img src = "images/count_by_mode.png"> 
 
-
 - The purpose of most trips is commuting, followed by social/recreation, then shopping
 <img src = "images/count_by_purpose.png"> 
-
 
 - There was no extreme variation in transit mode between days of the week 
 <img src = "images/count_day_by_mode.png"> 
 
-
 - Breakdown of transportation mode frequency by borough
 <img src = "images/count_borough_by_mode.png"> 
-
-
 
 Cluster
 -
@@ -44,7 +39,6 @@ Cluster
 
 Elbow Plot
 <img src = "images/elbow_plot.png"> 
-
 
 - Performed Hierarchical Agglomerative Clustering using Ward linkages to maximize variance
 
@@ -57,17 +51,13 @@ Elbow Plot
 Explained Variance (4 Components)
 <img src = "images/pca_4.png">
 
-
 - 90% of variance can be explained by 42 principal components
 
 Explained Variance (42 Components)
 <img src = "images/pca_42.png">
 
-
 - Visualize clusters with mode of transit identified
 <img src = "images/clusters_with_modes.png"> 
-
-
 
 Explore Cluster 1
 -
@@ -79,13 +69,10 @@ Explore Cluster 1
 Precipitation in Clusters
 <img src = "images/count_precipitation_by_cluster.png"> 
 
-
 - Below is Cluster 1 visualized to see which types of transit were used in this cluster. No single form of transit dominates, so many forms of alternative transportation can be recommended!
 
 - Cluster 1 mode breakdown
 <img src = "images/cluster1_count_precipitation_mode.png"> 
-
-
 
 Recommendation Engines
 -
